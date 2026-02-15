@@ -1,16 +1,152 @@
-<svg width="860" height="200" viewBox="0 0 860 200" xmlns="http://www.w3.org/2000/svg">
+<svg width="860" height="220" viewBox="0 0 860 220" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f0c29"/>
-      <stop offset="50%" stop-color="#302b63"/>
-      <stop offset="100%" stop-color="#24243e"/>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0818"/>
+      <stop offset="40%" stop-color="#1e1752"/>
+      <stop offset="100%" stop-color="#2d1b69"/>
     </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e1752" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0a0818"/>
+    </linearGradient>
+    <linearGradient id="purpleline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="30%"  stop-color="#a78bfa"/>
+      <stop offset="70%"  stop-color="#7c3aed"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="blur1"><feGaussianBlur stdDeviation="2"/></filter>
   </defs>
-  <rect width="860" height="200" fill="url(#bg)" rx="8"/>
-  <circle cx="780" cy="40" r="80" fill="#a78bfa" fill-opacity="0.07"/>
-  <circle cx="820" cy="160" r="50" fill="#7c3aed" fill-opacity="0.10"/>
-  <circle cx="60" cy="170" r="60" fill="#302b63" fill-opacity="0.5"/>
-  <path d="M0,160 Q215,130 430,155 T860,145 L860,200 L0,200 Z" fill="#0d1117" fill-opacity="0.6"/>
-  <text x="430" y="95" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="52" font-weight="700" fill="#ffffff">Michael Tawfik</text>
-  <text x="430" y="138" text-anchor="middle" font-family="Segoe UI, sans-serif" font-size="18" font-weight="400" fill="#a78bfa">Full-Stack Developer · Cloud &amp; DevOps · Budapest</text>
+
+  <!-- Sky -->
+  <rect width="860" height="220" fill="url(#sky)"/>
+
+  <!-- Stars -->
+  <circle cx="40"  cy="18" r="1"   fill="#fff" fill-opacity="0.6"/>
+  <circle cx="120" cy="10" r="0.8" fill="#fff" fill-opacity="0.5"/>
+  <circle cx="200" cy="22" r="1"   fill="#fff" fill-opacity="0.7"/>
+  <circle cx="310" cy="8"  r="0.8" fill="#fff" fill-opacity="0.4"/>
+  <circle cx="470" cy="6"  r="0.9" fill="#fff" fill-opacity="0.5"/>
+  <circle cx="560" cy="20" r="1"   fill="#fff" fill-opacity="0.7"/>
+  <circle cx="650" cy="9"  r="0.8" fill="#fff" fill-opacity="0.4"/>
+  <circle cx="730" cy="17" r="1.1" fill="#fff" fill-opacity="0.6"/>
+  <circle cx="820" cy="11" r="0.9" fill="#fff" fill-opacity="0.5"/>
+  <circle cx="80"  cy="30" r="0.7" fill="#fff" fill-opacity="0.3"/>
+  <circle cx="500" cy="28" r="0.7" fill="#fff" fill-opacity="0.3"/>
+  <circle cx="780" cy="25" r="0.7" fill="#fff" fill-opacity="0.3"/>
+
+  <!-- Purple ambient glow -->
+  <ellipse cx="430" cy="60" rx="280" ry="80" fill="url(#glow)"/>
+
+  <!-- PARLIAMENT -->
+  <rect x="95"  y="108" width="170" height="52" fill="#1a1040"/>
+  <rect x="88"  y="118" width="20"  height="42" fill="#1a1040"/>
+  <rect x="252" y="118" width="20"  height="42" fill="#1a1040"/>
+  <rect x="100" y="118" width="5" height="8" fill="#a78bfa" fill-opacity="0.5"/>
+  <rect x="112" y="118" width="5" height="8" fill="#a78bfa" fill-opacity="0.4"/>
+  <rect x="124" y="118" width="5" height="8" fill="#a78bfa" fill-opacity="0.5"/>
+  <rect x="136" y="118" width="5" height="8" fill="#fbbf24" fill-opacity="0.4"/>
+  <rect x="148" y="118" width="5" height="8" fill="#a78bfa" fill-opacity="0.5"/>
+  <rect x="160" y="118" width="5" height="8" fill="#a78bfa" fill-opacity="0.3"/>
+  <rect x="172" y="118" width="5" height="8" fill="#fbbf24" fill-opacity="0.4"/>
+  <rect x="184" y="118" width="5" height="8" fill="#a78bfa" fill-opacity="0.5"/>
+  <rect x="196" y="118" width="5" height="8" fill="#a78bfa" fill-opacity="0.4"/>
+  <rect x="208" y="118" width="5" height="8" fill="#a78bfa" fill-opacity="0.5"/>
+  <rect x="220" y="118" width="5" height="8" fill="#fbbf24" fill-opacity="0.3"/>
+  <rect x="232" y="118" width="5" height="8" fill="#a78bfa" fill-opacity="0.4"/>
+  <rect x="244" y="118" width="5" height="8" fill="#a78bfa" fill-opacity="0.5"/>
+  <rect x="110" y="133" width="5" height="7" fill="#a78bfa" fill-opacity="0.3"/>
+  <rect x="130" y="133" width="5" height="7" fill="#fbbf24" fill-opacity="0.3"/>
+  <rect x="150" y="133" width="5" height="7" fill="#a78bfa" fill-opacity="0.3"/>
+  <rect x="170" y="133" width="5" height="7" fill="#a78bfa" fill-opacity="0.3"/>
+  <rect x="190" y="133" width="5" height="7" fill="#fbbf24" fill-opacity="0.3"/>
+  <rect x="210" y="133" width="5" height="7" fill="#a78bfa" fill-opacity="0.3"/>
+  <rect x="230" y="133" width="5" height="7" fill="#a78bfa" fill-opacity="0.3"/>
+  <path d="M155,108 Q180,68 205,108 Z" fill="#1a1040"/>
+  <path d="M165,108 Q180,75 195,108" fill="none" stroke="#a78bfa" stroke-opacity="0.2" stroke-width="0.8"/>
+  <rect x="177" y="64" width="6"  height="12" fill="#1a1040"/>
+  <rect x="175" y="60" width="10" height="6"  fill="#1a1040"/>
+  <line x1="180" y1="36" x2="180" y2="62" stroke="#a78bfa" stroke-opacity="0.7" stroke-width="1.5"/>
+  <circle cx="180" cy="36" r="2" fill="#fbbf24" fill-opacity="0.8"/>
+  <rect x="104" y="100" width="8" height="18" fill="#1a1040"/>
+  <rect x="248" y="100" width="8" height="18" fill="#1a1040"/>
+  <path d="M104,100 L108,90 L112,100 Z" fill="#1a1040"/>
+  <path d="M248,100 L252,90 L256,100 Z" fill="#1a1040"/>
+  <line x1="91"  y1="98" x2="91"  y2="118" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1"/>
+  <line x1="268" y1="98" x2="268" y2="118" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1"/>
+
+  <!-- CHAIN BRIDGE -->
+  <rect x="280" y="148" width="200" height="6" fill="#251d5a"/>
+  <rect x="310" y="118" width="12" height="36" fill="#1e1650"/>
+  <rect x="438" y="118" width="12" height="36" fill="#1e1650"/>
+  <path d="M310,118 Q316,106 322,118 Z" fill="#1e1650"/>
+  <path d="M438,118 Q444,106 450,118 Z" fill="#1e1650"/>
+  <circle cx="316" cy="106" r="2.5" fill="#fbbf24" fill-opacity="0.7"/>
+  <circle cx="444" cy="106" r="2.5" fill="#fbbf24" fill-opacity="0.7"/>
+  <path d="M316,107 Q295,145 284,148" fill="none" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1.2"/>
+  <path d="M316,107 Q350,138 380,148" fill="none" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1.2"/>
+  <path d="M444,107 Q414,138 380,148" fill="none" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1.2"/>
+  <path d="M444,107 Q465,145 476,148" fill="none" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1.2"/>
+  <line x1="292" y1="138" x2="292" y2="148" stroke="#a78bfa" stroke-opacity="0.3" stroke-width="0.8"/>
+  <line x1="302" y1="133" x2="302" y2="148" stroke="#a78bfa" stroke-opacity="0.3" stroke-width="0.8"/>
+  <line x1="330" y1="132" x2="330" y2="148" stroke="#a78bfa" stroke-opacity="0.3" stroke-width="0.8"/>
+  <line x1="350" y1="136" x2="350" y2="148" stroke="#a78bfa" stroke-opacity="0.3" stroke-width="0.8"/>
+  <line x1="365" y1="140" x2="365" y2="148" stroke="#a78bfa" stroke-opacity="0.3" stroke-width="0.8"/>
+  <line x1="395" y1="140" x2="395" y2="148" stroke="#a78bfa" stroke-opacity="0.3" stroke-width="0.8"/>
+  <line x1="410" y1="136" x2="410" y2="148" stroke="#a78bfa" stroke-opacity="0.3" stroke-width="0.8"/>
+  <line x1="428" y1="132" x2="428" y2="148" stroke="#a78bfa" stroke-opacity="0.3" stroke-width="0.8"/>
+  <line x1="460" y1="133" x2="460" y2="148" stroke="#a78bfa" stroke-opacity="0.3" stroke-width="0.8"/>
+  <line x1="470" y1="138" x2="470" y2="148" stroke="#a78bfa" stroke-opacity="0.3" stroke-width="0.8"/>
+
+  <!-- BUDA HILL + CASTLE -->
+  <path d="M530,160 Q570,90 610,100 Q640,95 660,105 Q690,95 710,110 Q740,100 760,115 L820,130 L860,140 L860,160 Z" fill="#130e35"/>
+  <rect x="600" y="100" width="22" height="60" fill="#130e35"/>
+  <path d="M598,100 L611,82 L624,100 Z" fill="#130e35"/>
+  <line x1="611" y1="62" x2="611" y2="83" stroke="#a78bfa" stroke-opacity="0.6" stroke-width="1.2"/>
+  <circle cx="611" cy="62" r="1.8" fill="#fbbf24" fill-opacity="0.7"/>
+  <rect x="605" y="110" width="4" height="6" fill="#a78bfa" fill-opacity="0.4"/>
+  <rect x="614" y="110" width="4" height="6" fill="#fbbf24" fill-opacity="0.3"/>
+  <rect x="605" y="124" width="4" height="6" fill="#a78bfa" fill-opacity="0.3"/>
+  <rect x="614" y="124" width="4" height="6" fill="#a78bfa" fill-opacity="0.3"/>
+  <rect x="640" y="108" width="16" height="52" fill="#130e35"/>
+  <path d="M638,108 L648,94 L658,108 Z" fill="#130e35"/>
+  <line x1="648" y1="78" x2="648" y2="95" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1"/>
+  <circle cx="648" cy="78" r="1.5" fill="#fbbf24" fill-opacity="0.6"/>
+  <rect x="720" y="115" width="30" height="45" fill="#130e35"/>
+  <path d="M718,115 Q735,95 752,115 Z" fill="#130e35"/>
+  <line x1="735" y1="75" x2="735" y2="96" stroke="#a78bfa" stroke-opacity="0.5" stroke-width="1"/>
+  <circle cx="735" cy="75" r="1.8" fill="#fbbf24" fill-opacity="0.5"/>
+
+  <!-- DANUBE -->
+  <rect x="0" y="154" width="860" height="66" fill="url(#river)"/>
+  <path d="M0,162 Q100,158 200,163 T400,160 T600,163 T860,160" fill="none" stroke="#a78bfa" stroke-opacity="0.12" stroke-width="1"/>
+  <path d="M0,170 Q120,167 240,171 T480,168 T720,171 T860,168" fill="none" stroke="#7c3aed" stroke-opacity="0.10" stroke-width="1"/>
+  <path d="M316,154 Q316,168 320,178" fill="none" stroke="#a78bfa" stroke-opacity="0.15" stroke-width="1"/>
+  <path d="M444,154 Q444,168 448,178" fill="none" stroke="#a78bfa" stroke-opacity="0.15" stroke-width="1"/>
+
+  <!-- Purple divider line -->
+  <rect x="0" y="153" width="860" height="1.5" fill="url(#purpleline)"/>
+
+  <!-- NAME glow layer -->
+  <text x="430" y="74" text-anchor="middle"
+        font-family="Georgia, serif" font-size="46" font-weight="700"
+        fill="#a78bfa" fill-opacity="0.18" filter="url(#blur1)">Michael Tawfik</text>
+  <!-- NAME -->
+  <text x="430" y="72" text-anchor="middle"
+        font-family="Georgia, serif" font-size="44" font-weight="700"
+        fill="#ffffff" letter-spacing="2">Michael Tawfik</text>
+  <!-- Thin rule under name -->
+  <rect x="310" y="79" width="240" height="1" fill="#a78bfa" fill-opacity="0.4"/>
+  <!-- Subtitle -->
+  <text x="430" y="97" text-anchor="middle"
+        font-family="'Courier New', monospace" font-size="13"
+        fill="#a78bfa" letter-spacing="3">FULL-STACK DEVELOPER  ·  CLOUD &amp; DEVOPS</text>
+  <!-- Location -->
+  <text x="430" y="116" text-anchor="middle"
+        font-family="'Courier New', monospace" font-size="11"
+        fill="#7c6db8" letter-spacing="2">Budapest, Hungary</text>
 </svg>
