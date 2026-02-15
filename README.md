@@ -4,7 +4,7 @@
 <img width="100%" src="header.svg" alt="Michael Tawfik — Full-Stack Developer · Cloud & DevOps · Budapest"/>
 
 <!-- TYPING ANIMATION -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=false&width=600&lines=Building+things+that+scale+%F0%9F%9A%80;React+%2B+Node.js+%2B+Docker+%2B+Cloud;CS+Student+%40+ELTE+Budapest+%F0%9F%87%AD%F0%9F%87%BA;Open+to+Internships+in+2026+%E2%9C%A8)]
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&multiline=false&width=600&lines=Building+things+that+scale+%F0%9F%9A%80;React+%2B+Node.js+%2B+Docker+%2B+Cloud;CS+Student+%40+ELTE+Budapest+%F0%9F%87%AD%F0%9F%87%BA;Open+to+Internships+in+2026+%E2%9C%A8)](https://git.io/typing-svg)
 
 <!-- SOCIAL BADGES -->
 <a href="https://www.linkedin.com/in/michaeltawfik4">
@@ -22,8 +22,8 @@
 
 ---
 
-<!-- ABOUT ME - SPLIT LAYOUT -->
-<img align="right" width="360" src="https://github-readme-stats.vercel.app/api?username=Michaelll402&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=7c3aed&text_color=c9d1d9&rank_icon=github&include_all_commits=true" />
+<!-- ABOUT ME - SPLIT LAYOUT
+<img align="right" width="360" src="https://github-readme-stats.vercel.app/api?username=Michaelll402&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=a78bfa&icon_color=7c3aed&text_color=c9d1d9&rank_icon=github&include_all_commits=true" /> -->
 
 ### 〔 01 〕 Who Am I
 
